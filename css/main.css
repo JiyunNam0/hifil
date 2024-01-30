@@ -712,7 +712,7 @@ strong {
 }
 
 .p_modal_content dl dd li img {
-   width: 80%;
+   width: 60%;
 }
 
 .abClear dl {
@@ -733,7 +733,7 @@ strong {
 }
 
 .abClear dl dd div img {
-   width: 80%;
+   width: 60%;
 }
 
 @media screen and (max-width: 1200px) {
@@ -1030,13 +1030,42 @@ strong {
 
 @media screen and (max-width: 500px) {
 
+   .philosophy_section {
+      background-image: none;
+   }
+   
+
+   
+   .service_info > figcaption {
+      margin-top: 20px;
+   }
+   
+   
+   
+   .philosophy_info {
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      margin: 0px;
+   }
+   
+   .service_info {
+      margin: 0px;
+      padding-top: 40px ;
+   }
+
+   .service_info > p {
+      font-size: 14px;
+   }
+   
+
    .service_icon {
-      width: 120px;
-      height: 120px;
+      width: 150px;
+      height: 150px;
    }
    
    .service_icon img {
-      padding: 30px 0;
+      padding: 40px 0;
    }
 
    .service_info {
